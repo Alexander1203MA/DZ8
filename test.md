@@ -6,4 +6,4 @@ some python functions
 
 new python code
 
-i am old senior and i whant more money
+ther is info from master
