@@ -6,6 +6,4 @@ some python functions
 
 new python code
 
-ther is info from master
-i am old senior from vetka2
-
+Создаем тестируемое условия для создания конфликта в ветках.
