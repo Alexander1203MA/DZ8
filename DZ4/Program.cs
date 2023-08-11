@@ -10,6 +10,8 @@
 //     Console.WriteLine($"Второе число больше чем первое :{num2} > {max}");
 //     max = num2 ;
 
+
+
 // Console.WriteLine("");
 // Console.WriteLine("Задание 4");
 // Console.Write("введите первое целое число :");
@@ -23,7 +25,8 @@
 //     Mmax = num4;
 // if (num5 > Mmax)
 //     Mmax = num5;
-// Console.Write($"Получаем максимальное среди этих чисел:{Mmax}");
+// Console.Write($"Получаем максимальное число:{Mmax}");
+
 
 // Console.WriteLine("");
 // Console.WriteLine("Задание 6");
@@ -34,6 +37,8 @@
 //     Console.WriteLine("Число чётное") ;
 // else 
 //     Console.WriteLine ("Число нечётное") ;
+
+
 
 // Console.WriteLine("");
 // Console.WriteLine("Задание 8");
@@ -50,3 +55,40 @@
 //     }
 // }
 
+
+
+// Console.WriteLine(" ");
+// Console.WriteLine("Задание 7 Hard");  
+// int threechislo(int number)
+// {
+//     int result = -1;
+//         if (number >= 100)
+//             {
+//                 while (number > 999)
+//                 {
+//                     number = number / 10;
+//                 }
+//                 result = number % 10;
+//             }
+//             return result; 
+// }
+// Console.Write("Введите число : ");
+// int number1 = Convert.ToInt32(Console.ReadLine()); 
+// if (threechislo(number1) == -1)
+//     Console.WriteLine("Третьей цифры в этом числе нет");
+// else
+//     Console.WriteLine($"Третье число слева от этого числа это : {threechislo(number1)}");
+
+
+// Console.WriteLine(" ");
+// Console.WriteLine("Задание 2 Hard");
+// Console.Write("Введите число :");
+// double num8 =Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine($"{num8}") ;
+// int count = 0 ;
+// while (num8 > 0)
+// {
+//     count ++ ;
+//     num8 = num8 / 10 ;
+// }
+// Console.WriteLine($"{count}") ;
