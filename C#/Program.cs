@@ -50,13 +50,11 @@
 // int i = num % 10 ;
 // System.Console.WriteLine(i);
 
-Console.Write("введите любое целое число :");
-int num = Convert.ToInt32(Console.ReadLine());
-int i = num %10 ;
-while (i >= i / 10 ) 
-    Console.WriteLine("Выводим третью цифру слева"); 
-    Console.WriteLine("Такой цифры нет");
-i-- ;
-System.Console.WriteLine(i);
-
- 
+// Console.Write("введите любое целое число :");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int i = num %10 ;
+// while (i >= i / 100 ) 
+//     Console.WriteLine("Выводим третью цифру слева"); 
+//     Console.WriteLine("Такой цифры нет");
+// i-- ;
+//System.Console.WriteLine(i);
