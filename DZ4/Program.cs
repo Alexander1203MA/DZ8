@@ -92,6 +92,4 @@ while (num8 > 0)
     count ++ ;
 }
 int sum =count + ost ;
- Тут считаем количество целых чисел без остатка Console.WriteLine($"{count}") ; 
- Тут считаем количество чисел после запятой. System.Console.WriteLine(ost) ;
 System.Console.WriteLine(sum) ;
