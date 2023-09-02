@@ -48,11 +48,6 @@ System.Console.WriteLine();
 
 
 Console.WriteLine("Задание 29"); // Напишите программу, которая задаёт массив из 8 элементов случайных целых чисел от 1 до 50 и выводит их на экран.
-int InpNum(string message)
-{
-    System.Console.Write(message);
-    return int.Parse(Console.ReadLine()!);
-}
 
 void fullArray(int[] array)
 {
@@ -72,9 +67,7 @@ void printArray(int[] array)
     Console.Write("]");
 }  
 
-int num = InpNum("Введите число: ");
-int[] nein = new int[num];
-// int[] nein = new int[8];
+int[] nein = new int[8];
 fullArray(nein); 
 printArray(nein);
 
