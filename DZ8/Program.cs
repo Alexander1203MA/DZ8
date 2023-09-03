@@ -72,6 +72,9 @@
 //     Console.WriteLine("]");
 // }
 
+
+
+// Console.WriteLine("Задание 38"); // Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // Console.Write("Введите количество элементов массива: ");
 // int a = Convert.ToInt32(Console.ReadLine());
 // double[] randomArray = new double[a];
