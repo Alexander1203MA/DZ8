@@ -1,4 +1,4 @@
-﻿// // Задание по автотесту номер 2
+﻿// // // Задание по автотесту номер 2
 // int[,] CreateIncreasingMatrix(int n, int m, int k)  // Метод cоздает матрицу заданной размерности с каждым новым элементом увеличивающимся на опрделенное число K
 // {
 //     int[,] array = new int[n, m];
@@ -23,7 +23,7 @@
 //     }
 // }
 
-// int[] FindNumberByPosition(int[,] matrix, int rowPosition, int columnPosition) // Метод принимает на вход сгенрированную матрицу и проверяет заданные нам координаты и соответственно проверяет результат.
+// // int[] FindNumberByPosition(int[,] matrix, int rowPosition, int columnPosition) // Метод принимает на вход сгенрированную матрицу и проверяет заданные нам координаты и соответственно проверяет результат.
 // {
 //     int[] position = new int[] {0, 0};
 //     if (rowPosition > matrix.GetLength(0) || columnPosition > matrix.GetLength(1))
@@ -33,13 +33,13 @@
 //     return position;
 // }
 
-// void PrintCheckIfError(int[] results, int x, int y) // Метод принимает результат метода выше и выдает нам итоговый ответ при полученных исходных данных.
-// {
+// // void PrintCheckIfError(int[] results, int x, int y) // Метод принимает результат метода выше и выдает нам итоговый ответ при полученных исходных данных.
+// // {
 //     if (results[1] == 1)
 //         System.Console.WriteLine("There is no such index");
 //     else
 //         System.Console.WriteLine($"The number in [{x}, {y}] is {results[0]}");
-// }
+// // }
 
 
 // int n = 3;
