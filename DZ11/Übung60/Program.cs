@@ -1,10 +1,8 @@
 ﻿// Задача 60.Сформируйте трёхмерный массив из неповторяющихся двузначных чисел, напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
 // Массив размером 2 x 2 x 2
-int[,,] array3D = new int[2, 2, 2];
-FillArray(array3D);
-PrintIndex(array3D);
 
-void PrintIndex(int[,,] arr)
+
+void PrintIndex(int[,,] array3D)
 {
     for (int i = 0; i < array3D.GetLength(0); i++)
     {
@@ -34,3 +32,7 @@ void FillArray(int[,,] arr)
         }
     }
 }
+
+int[,,] array3D = new int[2, 2, 2];
+FillArray(array3D);
+PrintIndex(array3D);

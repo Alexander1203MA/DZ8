@@ -4,13 +4,9 @@ int InputNum(string message)
     System.Console.Write(message);
     return int.Parse(Console.ReadLine()!);
 }
-int column = InputNum("Введите размеры столбцов массива: ");
-int row = InputNum("Введите размеры строк массива: ");
-int[,] table = new int[column, row];
-if (column == row)
-    Console.WriteLine("Задан не прямоугольный массив"); 
 
-void NRMSE(int[,] array)  // NRMSE = полное имя метода NumberRowMinSumElements сократил для удобства своего.
+
+void NRMSE(int[,] table)  // NRMSE = полное имя метода NumberRowMinSumElements сократил для удобства своего.
 {
     int minRow = 0;
     int minSumRow = 0;
@@ -55,7 +51,11 @@ void PrintArray(int[,] array)
     }
     }
 
-
+int column = InputNum("Введите размеры столбцов массива: ");
+int row = InputNum("Введите размеры строк массива: ");
+int[,] table = new int[column, row];
+if (column == row)
+    Console.WriteLine("Задан не прямоугольный массив"); 
 FillArrayRandom(table);
 PrintArray(table);
 Console.WriteLine();

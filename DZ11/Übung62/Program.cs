@@ -5,6 +5,21 @@ int InputNum(string message)
     return int.Parse(Console.ReadLine()!);
 }
 
+void WriteArray (int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      if (array[i,j] / 10 <= 0)
+      Console.Write($"{array[i,j]}\t");
+
+      else Console.Write($"{array[i,j]}\t");
+    }
+    Console.WriteLine();
+  }
+}
+
 int num = InputNum("Введите размерность массива: ");
 int[,] sqareMatrix = new int[num, num];
 
@@ -27,18 +42,3 @@ while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
 }
 
 WriteArray(sqareMatrix);
-
-void WriteArray (int[,] array)
-{
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-      if (array[i,j] / 10 <= 0)
-      Console.Write($"{array[i,j]}\t");
-
-      else Console.Write($"{array[i,j]}\t");
-    }
-    Console.WriteLine();
-  }
-}
